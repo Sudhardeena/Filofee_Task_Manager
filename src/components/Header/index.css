@@ -1,0 +1,26 @@
+.header-contaner{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task-Header{
+    flex-grow: 1;
+    max-width: 400px;
+    text-align: center;
+    height: 44px;
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: Caveat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+
+.plus-icon{
+    font-size: 30px;
+    margin-right: 10px
+}

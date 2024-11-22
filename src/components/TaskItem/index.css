@@ -1,0 +1,50 @@
+.task-list-item{
+    list-style: none;
+    /* width: 100%; */
+    width: 340px;
+    height: 230px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0;
+    padding: 10px;
+}
+.title{
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+}
+
+.description{
+    font-size: 18px;
+    color: gray;
+    /* margin-bottom: 10px; */
+    height: 80px;
+}
+
+.status-edit-delete-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-text{
+    width: 90px;
+    font-size: 15px;
+}
+
+.due-date-text{
+    width: 80px;
+    font-size: 15px;
+}
+
+.pending{
+    color: red;
+}
+
+.completed{
+    color: greenyellow;
+}
+
+.icon{
+    font-size: 25px;
+    color: #475569;
+    margin: 0 10px;
+}

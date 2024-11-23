@@ -13,9 +13,9 @@ A simple task management web application built using **React** and **Vite**, whe
 - **Delete Task**: Delete tasks from the list.
 - **Persistent Data**: Uses local storage to persist tasks across page reloads.
 
-## Screenshots
+## Basic Demo video
+[https://www.loom.com/share/3ef95b45cd904fc5a57b20fc3cfc418d?sid=4bd319da-8a96-4b3e-9453-0a63c5d03e2b]
 
-![App Screenshot](./assets/screenshot.png)
 
 ## Installation
 

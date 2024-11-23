@@ -14,7 +14,7 @@ A simple task management web application built using **React** and **Vite**, whe
 - **Persistent Data**: Uses local storage to persist tasks across page reloads.
 
 ## Basic Demo video
-[https://www.loom.com/share/3ef95b45cd904fc5a57b20fc3cfc418d?sid=4bd319da-8a96-4b3e-9453-0a63c5d03e2b]
+https://www.loom.com/share/cdac39c13a784485af45502b8c6a41f6?sid=d80812d5-7410-4f47-8105-513c65e3cc39
 
 
 ## Installation

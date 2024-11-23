@@ -9,6 +9,7 @@ import './index.css'
 const AddTaskPopup = () => {
   return (
     <Popup
+          className='popup'
           modal
           trigger={
             <button type="button" className="trigger-btn">
@@ -16,7 +17,7 @@ const AddTaskPopup = () => {
             </button>
           }
           overlayStyle={{ background: 'transparent' }}
-          contentStyle={{ background: 'transparent', border: 'none', padding: '20px' }}
+          contentStyle={{ background: 'transparent', border: 'none', padding: '20px', width:'100%' }}
         >
           {close => (
             <TaskForm close={close}/>

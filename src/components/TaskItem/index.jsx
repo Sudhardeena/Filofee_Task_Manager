@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { MdDeleteOutline} from "react-icons/md";
 import EditTaskPopup from '../EditTaskPopup';
 import TaskContext from '../../context/TaskContext';
+import DeleteTaskPopup from '../DeleteTaskPopup';
 import './index.css'
 
 const TaskItem = props => {
@@ -19,7 +19,7 @@ const TaskItem = props => {
             <span className={`status-text ${statusColorClassName}`}>{status}</span>
             <span className='due-date-text'>{dueDate}</span>
             <EditTaskPopup initialDetails={taskItemDetails} />
-            <MdDeleteOutline className="icon" onClick={()=>deleteTask(taskId)}/>
+            <DeleteTaskPopup taskId={taskId}/>
         </div>
     </li>
   )

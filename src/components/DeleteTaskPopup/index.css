@@ -1,0 +1,49 @@
+
+.trigger-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #475569;
+}
+
+.delete-confirmation-container{
+    width: 100%;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.confirmation-heading{
+    font-size: 25px;
+    font-family: roboto;
+    margin:20px;
+}
+
+.btn{
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: inherit;
+    font-size: 10px;
+    margin: 0 10px;
+    width: 70px;
+    font-family: roboto;
+    border: none;
+  }
+
+  .light{
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .dark{
+    background-color: black;
+    color: #ffffff;
+    height: 25px;
+  }

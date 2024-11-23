@@ -47,7 +47,7 @@ const dummyTasks = [
 
 const App = () => {
   const persistedTaskList = localStorage.getItem("taskList")
-  console.log(persistedTaskList)
+
   const [taskList,setTaskList] = useState(()=>{
     return persistedTaskList ? JSON.parse(persistedTaskList) : []
   })
@@ -64,7 +64,7 @@ const App = () => {
 
   const deleteTask = taskId => setTaskList(prevTaskList=>prevTaskList.filter(each=>each.taskId!==taskId))
 
-  console.log(activeStatusTab)
+  localStorage.setItem('taskList',JSON.stringify(taskList))
 
   return (
     <div className='page-container'>

@@ -84,7 +84,8 @@ const App = () => {
           <Header/>
           <StatusTabIndicator/>
           <div className='task-or-empty-view'>
-          {taskList.length===0 ? <>
+          {
+          taskList.length===0 ? <>
           <img className="empty-img" src="https://res.cloudinary.com/da9omg4ab/image/upload/v1731616509/empty-concept-illustration_114360-1188_xhayir.webp" />
           <p className='add-task-text'>Add some task</p>
           </>:

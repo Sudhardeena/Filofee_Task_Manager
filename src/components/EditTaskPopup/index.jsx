@@ -16,7 +16,7 @@ const EditTaskPopup = ({initialDetails}) => {
             </button>
           }
           overlayStyle={{ background: 'transparent' }}
-          contentStyle={{ background: 'transparent', border: 'none', padding: '20px' }}
+          contentStyle={{ background: 'transparent', border: 'none', padding: '20px', width:'100%' }}
         >
           {close => (
             <TaskForm close={close} initialDetails={initialDetails}/>

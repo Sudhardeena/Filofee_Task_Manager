@@ -6,43 +6,43 @@ import StatusTabIndicator from './components/StatusTabIndicator'
 
 import './App.css'
 
-const dummyTasks = [
-  {
-    "taskId":1,
-    "title": "Submit Project Report",
-    "description": "Finalize and submit the project report to the team lead. Ensure all data is accurate and formatted correctly.",
-    "dueDate": "2024-11-25",
-    "status": "Pending"
-  },
-  {
-    "taskId":2,
-    "title": "Team Meeting Preparation",
-    "description": "Prepare the agenda and supporting materials for the team meeting. Ensure all relevant documents are updated.",
-    "dueDate": "2024-11-26",
-    "status": "Completed"
-  },
-  {
-    "taskId":3,
-    "title": "Client Feedback Review",
-    "description": "Review feedback from the client on the recent proposal and create a response strategy.",
-    "dueDate": "2024-11-27",
-    "status": "Pending"
-  },
-  {
-    "taskId":4,
-    "title": "Update Website Content",
-    "description": "Update the website with the latest blog post and new product images.",
-    "dueDate": "2024-11-28",
-    "status": "Pending"
-  },
-  {
-    "taskId":5,
-    "title": "Employee Training Session",
-    "description": "Organize and conduct a training session for new employees on company tools and processes.",
-    "dueDate": "2024-11-30",
-    "status": "Completed"
-  }
-]
+// const dummyTasks = [
+//   {
+//     "taskId":1,
+//     "title": "Submit Project Report",
+//     "description": "Finalize and submit the project report to the team lead. Ensure all data is accurate and formatted correctly.",
+//     "dueDate": "2024-11-25",
+//     "status": "Pending"
+//   },
+//   {
+//     "taskId":2,
+//     "title": "Team Meeting Preparation",
+//     "description": "Prepare the agenda and supporting materials for the team meeting. Ensure all relevant documents are updated.",
+//     "dueDate": "2024-11-26",
+//     "status": "Completed"
+//   },
+//   {
+//     "taskId":3,
+//     "title": "Client Feedback Review",
+//     "description": "Review feedback from the client on the recent proposal and create a response strategy.",
+//     "dueDate": "2024-11-27",
+//     "status": "Pending"
+//   },
+//   {
+//     "taskId":4,
+//     "title": "Update Website Content",
+//     "description": "Update the website with the latest blog post and new product images.",
+//     "dueDate": "2024-11-28",
+//     "status": "Pending"
+//   },
+//   {
+//     "taskId":5,
+//     "title": "Employee Training Session",
+//     "description": "Organize and conduct a training session for new employees on company tools and processes.",
+//     "dueDate": "2024-11-30",
+//     "status": "Completed"
+//   }
+// ]
 
 
 const App = () => {

@@ -24,8 +24,8 @@ To run the app locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Sudhardeena/Filofee_Task_Manager.git
-cd task-manager-app
+git clone https://github.com/Sudhardeena/Filoffee_Task_Manager.git
+cd Filoffee_Task_Manager
 ```
 
 ### 2. Install Dependencies
